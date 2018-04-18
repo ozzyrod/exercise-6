@@ -1,5 +1,5 @@
 /*
- * @project Exercise8
+ * @project Exercise6
  * @author  Osbardo Rodriguez
  * Date:    4/3/18
  */
