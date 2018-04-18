@@ -89,7 +89,20 @@ public class GroceryItem {
 	}
 
 	/*
-	 * Check to see if the item is expensive..
+	 * Check to see if the item has an expiration date..
+	 *
+	 * @return bool
+	 */
+	public boolean isExpDate() {
+		if ( null != expDate ) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	/*
+	 * Check to see if the item is expensive.
 	 *
 	 * @param double cost Defined as expensive.
 	 * @return bool

@@ -19,7 +19,12 @@ public class Main {
 
 	    System.out.println( "The name of the item is: " + bread.getItemName() );
 	    System.out.printf( "The cost of the %s is: $%.2f\n", bread.getItemName(), bread.getItemCost() );
-	    System.out.println( "Expiration date: " + bread.getExpDate() );
+
+	    if ( bread.isExpDate() ) {
+		    System.out.println( "Expiration date: " + bread.getExpDate() );
+	    } else {
+		    System.out.println( "There's no expiration date set." );
+	    }
 
 	    // Instantiate the Scanner
 	    Scanner input = new Scanner( System.in );
